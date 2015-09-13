@@ -1,27 +1,45 @@
 IP address 52.11.159.100 and SSH  2200.
+
 url: http://52.11.159.100/
 
 
 ### Software
 [Apache][1]
+
 [UFW][2]
+
 [Glances][3]
+
 [Fail2ban][4]
+
 [Unattended_upgraes][5]
+
 [Wsgi][6]
+
 [Git][7]
+
 [Virtualenv][8]
+
 [Flask][9]
+
 [PostgreSQL][10]
 
 ### Steps Taken:
+
 # Create new user
+
 Create a user:
+
 `$ adduser <username> `
+
 Grant sudo permission:
+
 `$ mkdir /etc/sudoers.d`
+
 Make a user file 
+
 `$ touch /etc/sudoers.d/user`
+
 Edit file to give username sudo persission
 
 # Update all currently installed packages
